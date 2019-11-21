@@ -184,9 +184,9 @@
                 <dd>{{ __('Project Name') }}：<a rel="nofollow" href="https://github.com/baijunyao/laravel-bjyblog" target="_blank">laravel-bjyblog</a></dd>
                 <dd>{{ __('Blog Version') }}：<a rel="nofollow" href="https://github.com/baijunyao/laravel-bjyblog" target="_blank">{{ config('bjyblog.version') }}-{{ config('bjyblog.branch') }}</a></dd>
                 <dd>{{ __('Framework Version') }}：<a rel="nofollow"  href="https://github.com/laravel/framework" target="_blank">laravel-v{{ \Illuminate\Foundation\Application::VERSION }}</a></dd>
-                <dd>{{ __('Project Author') }}：<a href="https://baijunyao.com">{{ __('Junyao Bai') }}</a></dd>
+                <dd>{{ __('Project Author') }}：<a href="http://deatrabbit.top">{{ __('Junyao Bai') }}</a></dd>
                 <dd>{{ __('Theme Name') }}：<a rel="nofollow" href="https://github.com/baijunyao/blog-theme-blueberry">blog-theme-blueberry</a></dd>
-                <dd>{{ __('Theme Author') }}：<a href="https://baijunyao.com">{{ __('Junyao Bai') }}</a></dd>
+                <dd>{{ __('Theme Author') }}：<a href="http://deatrabbit.top">{{ __('Junyao Bai') }}</a></dd>
             </dl>
 
             <dl class="col-xs-12 col-sm-12 col-md-4 col-lg-4">

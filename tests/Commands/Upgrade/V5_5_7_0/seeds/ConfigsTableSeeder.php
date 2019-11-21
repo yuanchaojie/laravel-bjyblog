@@ -19,7 +19,7 @@ class ConfigsTableSeeder extends Seeder
             0 => [
                 'id'         => 1,
                 'name'       => 'WEB_NAME',
-                'value'      => '白俊遥博客',
+                'value'      => '袁超杰博客',
                 'created_at' => '2017-04-25 12:12:00',
                 'updated_at' => '2017-04-25 12:12:00',
                 'deleted_at' => null,
@@ -27,7 +27,7 @@ class ConfigsTableSeeder extends Seeder
             1 => [
                 'id'         => 2,
                 'name'       => 'WEB_KEYWORDS',
-                'value'      => '个人博客,博客模板,thinkphp,laravel博客,php博客,技术博客,白俊遥',
+                'value'      => '个人博客,博客模板,thinkphp,laravel博客,php博客,技术博客,袁超杰',
                 'created_at' => '2017-04-25 12:12:00',
                 'updated_at' => '2017-06-21 22:51:54',
                 'deleted_at' => null,
@@ -35,7 +35,7 @@ class ConfigsTableSeeder extends Seeder
             2 => [
                 'id'         => 3,
                 'name'       => 'WEB_DESCRIPTION',
-                'value'      => '白俊遥的php博客,个人技术博客,bjyblog,bjyadmin官方网站',
+                'value'      => '袁超杰的php博客,个人技术博客,bjyblog,bjyadmin官方网站',
                 'created_at' => '2017-04-25 12:12:00',
                 'updated_at' => '2017-04-25 12:12:00',
                 'deleted_at' => null,
@@ -155,7 +155,7 @@ class ConfigsTableSeeder extends Seeder
             18 => [
                 'id'         => 19,
                 'name'       => 'COPYRIGHT_WORD',
-                'value'      => '本文为白俊遥原创文章,转载无需和我联系,但请注明来自<a href="http://baijunyao.com">白俊遥博客</a>http://baijunyao.com',
+                'value'      => '本文为袁超杰原创文章,转载无需和我联系,但请注明来自<a href="http://deatrabbit.top">袁超杰博客</a>http://deatrabbit.top',
                 'created_at' => '2017-04-25 12:12:01',
                 'updated_at' => '2017-06-21 22:51:54',
                 'deleted_at' => null,
@@ -203,7 +203,7 @@ class ConfigsTableSeeder extends Seeder
             24 => [
                 'id'         => 25,
                 'name'       => 'AUTHOR',
-                'value'      => '白俊遥',
+                'value'      => '袁超杰',
                 'created_at' => '2017-04-25 12:12:01',
                 'updated_at' => '2017-04-25 12:12:01',
                 'deleted_at' => null,
@@ -331,7 +331,7 @@ class ConfigsTableSeeder extends Seeder
             40 => [
                 'id'         => 41,
                 'name'       => 'IMAGE_TITLE_ALT_WORD',
-                'value'      => '白俊遥博客',
+                'value'      => '袁超杰博客',
                 'created_at' => '2017-04-25 12:12:01',
                 'updated_at' => '2017-04-25 12:12:01',
                 'deleted_at' => null,
@@ -395,7 +395,7 @@ class ConfigsTableSeeder extends Seeder
             48 => [
                 'id'         => 49,
                 'name'       => 'WEB_TITLE',
-                'value'      => '白俊遥博客,技术博客,个人博客模板, php博客系统',
+                'value'      => '袁超杰博客,技术博客,个人博客模板, php博客系统',
                 'created_at' => null,
                 'updated_at' => null,
                 'deleted_at' => null,
@@ -419,7 +419,7 @@ class ConfigsTableSeeder extends Seeder
             51 => [
                 'id'         => 52,
                 'name'       => 'QQ_QUN_CODE',
-                'value'      => '<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=bba3fea90444ee6caf1fb1366027873fe14e86bada254d41ce67768fadd729ee"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="白俊遥博客群" title="白俊遥博客群"></a>',
+                'value'      => '<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=bba3fea90444ee6caf1fb1366027873fe14e86bada254d41ce67768fadd729ee"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="袁超杰博客群" title="袁超杰博客群"></a>',
                 'created_at' => null,
                 'updated_at' => null,
                 'deleted_at' => null,
@@ -435,7 +435,7 @@ class ConfigsTableSeeder extends Seeder
             53 => [
                 'id'         => 101,
                 'name'       => 'bjyblog.web_name',
-                'value'      => '白俊遥博客',
+                'value'      => '袁超杰博客',
                 'created_at' => '2018-08-22 21:03:01',
                 'updated_at' => '2018-08-22 21:03:01',
                 'deleted_at' => null,
@@ -443,7 +443,7 @@ class ConfigsTableSeeder extends Seeder
             54 => [
                 'id'         => 102,
                 'name'       => 'bjyblog.head.keywords',
-                'value'      => '个人博客,博客模板,thinkphp,laravel博客,php博客,技术博客,白俊遥',
+                'value'      => '个人博客,博客模板,thinkphp,laravel博客,php博客,技术博客,袁超杰',
                 'created_at' => '2018-08-22 21:03:01',
                 'updated_at' => '2018-08-22 21:03:01',
                 'deleted_at' => null,
@@ -451,7 +451,7 @@ class ConfigsTableSeeder extends Seeder
             55 => [
                 'id'         => 103,
                 'name'       => 'bjyblog.head.description',
-                'value'      => '白俊遥的php博客,个人技术博客,bjyblog,bjyadmin官方网站',
+                'value'      => '袁超杰的php博客,个人技术博客,bjyblog,bjyadmin官方网站',
                 'created_at' => '2018-08-22 21:03:01',
                 'updated_at' => '2018-08-22 21:03:01',
                 'deleted_at' => null,
@@ -499,7 +499,7 @@ class ConfigsTableSeeder extends Seeder
             61 => [
                 'id'         => 119,
                 'name'       => 'bjyblog.copyright_word',
-                'value'      => '本文为白俊遥原创文章,转载无需和我联系,但请注明来自<a href="http://baijunyao.com">白俊遥博客</a>http://baijunyao.com',
+                'value'      => '本文为袁超杰原创文章,转载无需和我联系,但请注明来自<a href="http://deatrabbit.top">袁超杰博客</a>http://deatrabbit.top',
                 'created_at' => '2018-08-22 21:03:01',
                 'updated_at' => '2018-08-22 21:03:01',
                 'deleted_at' => null,
@@ -523,7 +523,7 @@ class ConfigsTableSeeder extends Seeder
             64 => [
                 'id'         => 125,
                 'name'       => 'bjyblog.author',
-                'value'      => '白俊遥',
+                'value'      => '袁超杰',
                 'created_at' => '2018-08-22 21:03:01',
                 'updated_at' => '2018-08-22 21:03:01',
                 'deleted_at' => null,
@@ -579,7 +579,7 @@ class ConfigsTableSeeder extends Seeder
             71 => [
                 'id'         => 141,
                 'name'       => 'bjyblog.alt_word',
-                'value'      => '白俊遥博客',
+                'value'      => '袁超杰博客',
                 'created_at' => '2018-08-22 21:03:01',
                 'updated_at' => '2018-08-22 21:03:01',
                 'deleted_at' => null,
@@ -627,7 +627,7 @@ class ConfigsTableSeeder extends Seeder
             77 => [
                 'id'         => 149,
                 'name'       => 'bjyblog.head.title',
-                'value'      => '白俊遥博客,技术博客,个人博客模板, php博客系统',
+                'value'      => '袁超杰博客,技术博客,个人博客模板, php博客系统',
                 'created_at' => '2018-08-22 21:03:01',
                 'updated_at' => '2018-08-22 21:03:01',
                 'deleted_at' => null,
@@ -651,7 +651,7 @@ class ConfigsTableSeeder extends Seeder
             80 => [
                 'id'         => 152,
                 'name'       => 'bjyblog.qq_qun.code',
-                'value'      => '<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=bba3fea90444ee6caf1fb1366027873fe14e86bada254d41ce67768fadd729ee"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="白俊遥博客群" title="白俊遥博客群"></a>',
+                'value'      => '<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=bba3fea90444ee6caf1fb1366027873fe14e86bada254d41ce67768fadd729ee"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="袁超杰博客群" title="袁超杰博客群"></a>',
                 'created_at' => '2018-08-22 21:03:01',
                 'updated_at' => '2018-08-22 21:03:01',
                 'deleted_at' => null,

@@ -17,8 +17,8 @@ class FriendshipLinksTableSeeder extends Seeder
         \DB::table('friendship_links')->insert([
             0 => [
                 'id'         => 1,
-                'name'       => '白俊遥博客',
-                'url'        => 'https://baijunyao.com',
+                'name'       => '袁超杰博客',
+                'url'        => 'http://deatrabbit.top',
                 'sort'       => 1,
                 'created_at' => '2017-7-16 07:35:12',
                 'updated_at' => '2016-7-16 07:35:12',

@@ -18,21 +18,21 @@ class ArticlesTableSeeder extends Seeder
                 'category_id' => 1,
                 'title'       => '欢迎使用 laravel-bjyblog',
                 'slug'        => 'welcome-to-laravel-bjyblog',
-                'author'      => '白俊遥',
-                'markdown'    => '1. [切换语言](https://baijunyao.com/docs/laravel-bjyblog/其他配置.html) 
+                'author'      => '袁超杰',
+                'markdown'    => '1. [切换语言](http://deatrabbit.top/docs/laravel-bjyblog/其他配置.html) 
 ![](/uploads/article/5d9829577d311.png)  
-2. [清空测试数据](https://baijunyao.com/docs/laravel-bjyblog/清空测试数据.html)  
-3. [升级版本](https://baijunyao.com/docs/laravel-bjyblog/升级版本.html)',
+2. [清空测试数据](http://deatrabbit.top/docs/laravel-bjyblog/清空测试数据.html)  
+3. [升级版本](http://deatrabbit.top/docs/laravel-bjyblog/升级版本.html)',
                 'html'        => '<ol>
 <li>
-<a href="https://baijunyao.com/docs/laravel-bjyblog/%E5%85%B6%E4%BB%96%E9%85%8D%E7%BD%AE.html">切换语言</a>
+<a href="http://deatrabbit.top/docs/laravel-bjyblog/%E5%85%B6%E4%BB%96%E9%85%8D%E7%BD%AE.html">切换语言</a>
 <img src="/uploads/article/5d9829577d311.png" alt="" />
 </li>
 <li>
-<a href="https://baijunyao.com/docs/laravel-bjyblog/%E6%B8%85%E7%A9%BA%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE.html">清空测试数据</a>
+<a href="http://deatrabbit.top/docs/laravel-bjyblog/%E6%B8%85%E7%A9%BA%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE.html">清空测试数据</a>
 </li>
 <li>
-<a href="https://baijunyao.com/docs/laravel-bjyblog/%E5%8D%87%E7%BA%A7%E7%89%88%E6%9C%AC.html">升级版本</a>
+<a href="http://deatrabbit.top/docs/laravel-bjyblog/%E5%8D%87%E7%BA%A7%E7%89%88%E6%9C%AC.html">升级版本</a>
 </li>
 </ol>
 ',
@@ -50,7 +50,7 @@ class ArticlesTableSeeder extends Seeder
                 'category_id' => 1,
                 'title'       => '已删除',
                 'slug'        => 'deleted',
-                'author'      => '白俊遥',
+                'author'      => '袁超杰',
                 'markdown'    => '内容',
                 'html'        => '内容',
                 'description' => '描述',
@@ -68,20 +68,20 @@ class ArticlesTableSeeder extends Seeder
                 'title'       => 'Welcome to laravel-bjyblog',
                 'slug'        => 'welcome-to-laravel-bjyblog',
                 'author'      => 'baijunyao',
-                'markdown'    => '1. [Switch language](https://baijunyao.com/docs/laravel-bjyblog/en/OtherConfig.html) 
+                'markdown'    => '1. [Switch language](http://deatrabbit.top/docs/laravel-bjyblog/en/OtherConfig.html) 
 ![](/uploads/article/5d9829577d311.png)  
-2. [Clear test data](https://baijunyao.com/docs/laravel-bjyblog/en/ClearTestData.html)  
-3. [Upgrade version](https://baijunyao.com/docs/laravel-bjyblog/en/Upgrade.html)',
+2. [Clear test data](http://deatrabbit.top/docs/laravel-bjyblog/en/ClearTestData.html)  
+3. [Upgrade version](http://deatrabbit.top/docs/laravel-bjyblog/en/Upgrade.html)',
                 'html'        => '<ol>
 <li>
-<a href="https://baijunyao.com/docs/laravel-bjyblog/en/OtherConfig.html">Switch language</a>
+<a href="http://deatrabbit.top/docs/laravel-bjyblog/en/OtherConfig.html">Switch language</a>
 <img src="/uploads/article/5d9829577d311.png" alt="" />
 </li>
 <li>
-<a href="https://baijunyao.com/docs/laravel-bjyblog/en/ClearTestData.html">Clear test data</a>
+<a href="http://deatrabbit.top/docs/laravel-bjyblog/en/ClearTestData.html">Clear test data</a>
 </li>
 <li>
-<a href="https://baijunyao.com/docs/laravel-bjyblog/en/Upgrade.html">Upgrade version</a>
+<a href="http://deatrabbit.top/docs/laravel-bjyblog/en/Upgrade.html">Upgrade version</a>
 </li>
 </ol>
 ',

@@ -18,9 +18,9 @@ class SitesTableSeeder extends Seeder
             [
                 'id'                => 1,
                 'socialite_user_id' => 1,
-                'name'              => '白俊遥博客',
-                'description'       => '白俊遥的个人博客',
-                'url'               => 'https://baijunyao.com',
+                'name'              => '袁超杰博客',
+                'description'       => '袁超杰的个人博客',
+                'url'               => 'http://deatrabbit.top',
                 'audit'             => 0,
                 'sort'              => 1,
                 'created_at'        => '2018-11-15 20:35:12',

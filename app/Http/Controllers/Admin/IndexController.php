@@ -46,7 +46,7 @@ class IndexController extends Controller
         $oldVersion = config('bjyblog.version');
 
         if (Comparator::greaterThan($newVersion, $oldVersion)) {
-            return redirect('https://baijunyao.com/docs/laravel-bjyblog/更新记录.html');
+            return redirect('http://deatrabbit.top/docs/laravel-bjyblog/更新记录.html');
         } else {
             flash_error('没有需要更新的版本');
 

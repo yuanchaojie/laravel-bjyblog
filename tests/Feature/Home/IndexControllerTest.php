@@ -67,7 +67,7 @@ class IndexControllerTest extends TestCase
             'bjyblog.notification_email' => 'test',
         ]);
 
-        $content = '评论666<img src="http://baijunyao.com/statics/emote/tuzki/3.gif" title="Yeah" alt="test">';
+        $content = '评论666<img src="http://deatrabbit.top/statics/emote/tuzki/3.gif" title="Yeah" alt="test">';
         $email   = 'comment@test.com';
         $comment = [
             'article_id' => 1,
@@ -114,7 +114,7 @@ class IndexControllerTest extends TestCase
             'bjyblog.notification_email' => 'test',
         ]);
 
-        $content = '评论666<img src="http://baijunyao.com/statics/emote/tuzki/3.gif" title="Yeah" alt="test">';
+        $content = '评论666<img src="http://deatrabbit.top/statics/emote/tuzki/3.gif" title="Yeah" alt="test">';
         $comment = [
             'article_id' => 1,
             'pid'        => 1,

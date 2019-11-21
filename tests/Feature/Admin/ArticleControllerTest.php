@@ -37,7 +37,7 @@ class ArticleControllerTest extends TestCase
         $commonColumn = [
             'category_id' => 1,
             'title'       => 'title',
-            'author'      => '白俊遥',
+            'author'      => '袁超杰',
             'keywords'    => 'keywords',
             'markdown'    => 'content',
         ];
@@ -63,7 +63,7 @@ class ArticleControllerTest extends TestCase
         $commonColumn = [
             'category_id' => 1,
             'title'       => 'title',
-            'author'      => '白俊遥',
+            'author'      => '袁超杰',
             'keywords'    => 'keywords',
             'description' => 'test',
             'markdown'    => 'content',
@@ -86,7 +86,7 @@ class ArticleControllerTest extends TestCase
         $this->adminPost('update/' . $this->updateId, [
             'category_id' => 1,
             'title'       => 'update',
-            'author'      => '白俊遥',
+            'author'      => '袁超杰',
             'tag_ids'     => [1],
             'keywords'    => 'update',
             'description' => '',
@@ -96,7 +96,7 @@ class ArticleControllerTest extends TestCase
         $this->assertDatabaseHas('articles', [
             'category_id' => 1,
             'title'       => 'update',
-            'author'      => '白俊遥',
+            'author'      => '袁超杰',
             'keywords'    => 'update',
             'description' => 'update',
             'markdown'    => 'update',
@@ -108,7 +108,7 @@ class ArticleControllerTest extends TestCase
         $this->adminPost('update/' . $this->updateId, [
             'category_id' => 1,
             'title'       => 'update',
-            'author'      => '白俊遥',
+            'author'      => '袁超杰',
             'tag_ids'     => [1],
             'keywords'    => 'update',
             'description' => 'updated description',
@@ -118,7 +118,7 @@ class ArticleControllerTest extends TestCase
         $this->assertDatabaseHas('articles', [
             'category_id' => 1,
             'title'       => 'update',
-            'author'      => '白俊遥',
+            'author'      => '袁超杰',
             'keywords'    => 'update',
             'description' => 'updated description',
             'markdown'    => 'update',
@@ -167,7 +167,7 @@ class ArticleControllerTest extends TestCase
         $commonColumn = [
             'category_id' => 1,
             'title'       => 'title slug',
-            'author'      => '白俊遥',
+            'author'      => '袁超杰',
             'keywords'    => 'keywords',
             'markdown'    => 'content',
         ];
@@ -202,7 +202,7 @@ class ArticleControllerTest extends TestCase
         $commonColumn = [
             'category_id' => 1,
             'title'       => '测试标题',
-            'author'      => '白俊遥',
+            'author'      => '袁超杰',
             'keywords'    => 'keywords',
             'markdown'    => 'content',
         ];

@@ -21,7 +21,7 @@
             {
                 "id": 101,
                 "name": "app.name",
-                "value": "白俊遥博客",
+                "value": "袁超杰博客",
                 "created_at": "2018-08-22 21:03:01",
                 "updated_at": "2018-08-22 21:03:01",
                 "deleted_at": null
@@ -29,7 +29,7 @@
             {
                 "id": 102,
                 "name": "bjyblog.head.keywords",
-                "value": "个人博客,博客模板,thinkphp,laravel博客,php博客,技术博客,白俊遥",
+                "value": "个人博客,博客模板,thinkphp,laravel博客,php博客,技术博客,袁超杰",
                 "created_at": "2018-08-22 21:03:01",
                 "updated_at": "2018-08-22 21:03:01",
                 "deleted_at": null
@@ -37,7 +37,7 @@
             {
                 "id": 103,
                 "name": "bjyblog.head.description",
-                "value": "白俊遥的php博客,个人技术博客,bjyblog,bjyadmin官方网站",
+                "value": "袁超杰的php博客,个人技术博客,bjyblog,bjyadmin官方网站",
                 "created_at": "2018-08-22 21:03:01",
                 "updated_at": "2018-08-22 21:03:01",
                 "deleted_at": null
@@ -85,7 +85,7 @@
             {
                 "id": 119,
                 "name": "bjyblog.copyright_word",
-                "value": "本文为白俊遥原创文章,转载无需和我联系,但请注明来自<a href=\"http:\/\/baijunyao.com\">白俊遥博客<\/a>http:\/\/baijunyao.com",
+                "value": "本文为袁超杰原创文章,转载无需和我联系,但请注明来自<a href=\"http:\/\/baijunyao.com\">袁超杰博客<\/a>http:\/\/baijunyao.com",
                 "created_at": "2018-08-22 21:03:01",
                 "updated_at": "2018-08-22 21:03:01",
                 "deleted_at": null
@@ -101,7 +101,7 @@
             {
                 "id": 125,
                 "name": "bjyblog.author",
-                "value": "白俊遥",
+                "value": "袁超杰",
                 "created_at": "2018-08-22 21:03:01",
                 "updated_at": "2018-08-22 21:03:01",
                 "deleted_at": null
@@ -117,7 +117,7 @@
             {
                 "id": 141,
                 "name": "bjyblog.alt_word",
-                "value": "白俊遥博客",
+                "value": "袁超杰博客",
                 "created_at": "2018-08-22 21:03:01",
                 "updated_at": "2018-08-22 21:03:01",
                 "deleted_at": null

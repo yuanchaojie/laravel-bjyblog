@@ -12,10 +12,10 @@
 
 ## Introduction
 
-![laravel-bjyblog](https://baijunyao.com/uploads/article/20171210/5a2d533982e36.jpg)  
+![laravel-bjyblog](http://deatrabbit.top/uploads/article/20171210/5a2d533982e36.jpg)  
 
 ## Documentation
-[English](https://baijunyao.com/docs/laravel-bjyblog/en) [中文文档](https://baijunyao.com/docs/laravel-bjyblog)  
+[English](http://deatrabbit.top/docs/laravel-bjyblog/en) [中文文档](http://deatrabbit.top/docs/laravel-bjyblog)  
 
 ## Testing
 Run the tests with  
@@ -24,7 +24,7 @@ Run the tests with
 ```
 
 ## Example
-- [白俊遥博客](https://baijunyao.com)
+- [袁超杰博客](http://deatrabbit.top)
 - [larwas](https://www.larwas.com)
 - [冯奎博客](https://fengkui.net)
 - [连浩勇博客](https://lhyong.cn)
@@ -52,7 +52,7 @@ Run the tests with
 Welcome to submit a PR or tell me to include your blog
 
 ## Links
-- Blog：[https://baijunyao.com](https://baijunyao.com)   
+- Blog：[http://deatrabbit.top](http://deatrabbit.top)   
 - GitHub：[https://github.com/baijunyao/laravel-bjyblog](https://github.com/baijunyao/laravel-bjyblog)   
 - Gitee：[https://gitee.com/baijunyao/laravel-bjyblog](https://gitee.com/baijunyao/laravel-bjyblog)   
 
@@ -73,7 +73,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/lenkaren"><img src="https://avatars2.githubusercontent.com/u/10875170?v=4" width="100px;" alt="lenkaren"/><br /><sub><b>lenkaren</b></sub></a><br /><a href="https://github.com/baijunyao/laravel-bjyblog/commits?author=lenkaren" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/shukunwang"><img src="https://avatars2.githubusercontent.com/u/16896140?v=4" width="100px;" alt="Doraemon"/><br /><sub><b>Doraemon</b></sub></a><br /><a href="https://github.com/baijunyao/laravel-bjyblog/commits?author=shukunwang" title="Code">💻</a></td>
     <td align="center"><a href="http://xtty.ru"><img src="https://avatars1.githubusercontent.com/u/253228?v=4" width="100px;" alt="Yuran"/><br /><sub><b>Yuran</b></sub></a><br /><a href="https://github.com/baijunyao/laravel-bjyblog/issues?q=author%3Ayuri25" title="Bug reports">🐛</a> <a href="#translation-yuri25" title="Translation">🌍</a></td>
-    <td align="center"><a href="https://baijunyao.com"><img src="https://avatars1.githubusercontent.com/u/9360694?v=4" width="100px;" alt="白俊遥"/><br /><sub><b>白俊遥</b></sub></a><br /><a href="https://github.com/baijunyao/laravel-bjyblog/commits?author=baijunyao" title="Code">💻</a> <a href="#translation-baijunyao" title="Translation">🌍</a> <a href="https://github.com/baijunyao/laravel-bjyblog/commits?author=baijunyao" title="Documentation">📖</a> <a href="https://github.com/baijunyao/laravel-bjyblog/commits?author=baijunyao" title="Tests">⚠️</a></td>
+    <td align="center"><a href="http://deatrabbit.top"><img src="https://avatars1.githubusercontent.com/u/9360694?v=4" width="100px;" alt="袁超杰"/><br /><sub><b>袁超杰</b></sub></a><br /><a href="https://github.com/baijunyao/laravel-bjyblog/commits?author=baijunyao" title="Code">💻</a> <a href="#translation-baijunyao" title="Translation">🌍</a> <a href="https://github.com/baijunyao/laravel-bjyblog/commits?author=baijunyao" title="Documentation">📖</a> <a href="https://github.com/baijunyao/laravel-bjyblog/commits?author=baijunyao" title="Tests">⚠️</a></td>
   </tr>
   <tr>
     <td align="center"><a href="http://tahsingokalp.com"><img src="https://avatars1.githubusercontent.com/u/3122047?v=4" width="100px;" alt="Tahsin Gökalp Şaan"/><br /><sub><b>Tahsin Gökalp Şaan</b></sub></a><br /><a href="https://github.com/baijunyao/laravel-bjyblog/commits?author=TahsinGokalp" title="Code">💻</a></td>

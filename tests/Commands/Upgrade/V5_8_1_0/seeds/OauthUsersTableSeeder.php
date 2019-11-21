@@ -18,7 +18,7 @@ class OauthUsersTableSeeder extends Seeder
             [
                 'id'            => 1,
                 'type'          => 1,
-                'name'          => '白俊遥',
+                'name'          => '袁超杰',
                 'avatar'        => '/uploads/article/default.jpg',
                 'openid'        => '1',
                 'access_token'  => '',

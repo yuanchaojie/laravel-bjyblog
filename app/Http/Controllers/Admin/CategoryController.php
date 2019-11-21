@@ -43,7 +43,6 @@ class CategoryController extends Controller
     public function store(Store $request)
     {
         Category::create($request->except('_token'));
-
         return redirect('admin/category/index');
     }
 
