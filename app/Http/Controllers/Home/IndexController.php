@@ -64,6 +64,7 @@ class IndexController extends Controller
     {
         // 获取文章数据
         $article = Article::with(['category', 'tags'])->find($id);
+	file_put_contents("/tmp/debug.info","\n".json_encode($article),FILE_APPEND);
         if ($article === null) {
             return abort(404);
         }

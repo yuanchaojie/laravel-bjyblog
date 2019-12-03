@@ -29,7 +29,6 @@ class IndexController extends Controller
             'mysql'     => DB::connection()->getPdo()->query('SELECT VERSION();')->fetchColumn(),
         ];
         $assign = compact('socialiteUserData', 'version');
-
         return view('admin.index.index', $assign);
     }
 
@@ -40,6 +39,7 @@ class IndexController extends Controller
      */
     public function upgrade()
     {
+    	return '更新代码方法待确定';
         $data = file_get_contents('https://gitee.com/baijunyao/laravel-bjyblog/raw/master/config/bjyblog.php');
         preg_match('/v\\d+(\\.\\d+){3}/', $data, $version);
         $newVersion = $version[0];

@@ -37,7 +37,6 @@ class ArticleController extends Controller
             ->withTrashed()
             ->paginate(15);
         $assign = compact('article');
-
         return view('admin.article.index', $assign);
     }
 
@@ -92,18 +91,17 @@ class ArticleController extends Controller
     public function store(Store $request, Article $articleModel)
     {
         $data = $request->except('_token');
-
         if ($request->hasFile('cover')) {
             $result = Upload::file('cover', 'uploads/article');
             if ($result['status_code'] === 200) {
                 $data['cover'] = $result['data'][0]['path'];
             }
         }
-
         $tag_ids = $data['tag_ids'];
         unset($data['tag_ids']);
+        // file_put_contents("/tmp/debug.info","\n".json_encode($data),FILE_APPEND);
         $article = Article::create($data);
-
+        // file_put_contents("/tmp/debug.info","\n".json_encode($article),FILE_APPEND);
         if ($article) {
             // 给文章添加标签
             $articleTag = new ArticleTag();
@@ -127,7 +125,6 @@ class ArticleController extends Controller
         $category         = Category::all();
         $tag              = Tag::all();
         $assign           = compact('article', 'category', 'tag');
-
         return view('admin.article.edit', $assign);
     }
 
@@ -152,12 +149,13 @@ class ArticleController extends Controller
                 $data['cover'] = $result['data'][0]['path'];
             }
         }
-
         $tag_ids = $data['tag_ids'];
         unset($data['tag_ids']);
-        $result = Article::withTrashed()->find($id)->update($data);
 
-        if ($result) {
+	file_put_contents("/tmp/debug.info","\n".json_encode($data),FILE_APPEND);
+	$result = Article::withTrashed()->find($id)->update($data);
+	file_put_contents("/tmp/debug.info","\n".json_encode($result),FILE_APPEND);
+	if ($result) {
             ArticleTag::where('article_id', $id)->forceDelete();
             $articleTagModel->addTagIds($id, $tag_ids);
         }

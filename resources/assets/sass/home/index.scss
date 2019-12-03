@@ -2,7 +2,7 @@
 /* CSS Document */
 
 /* 清除内外边距 */
-body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, /* structural elements 结构元素 */
 dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
 pre, /* text formatting elements 文本格式元素 */
 fieldset, lengend, button, input, textarea, /* form elements 表单元素 */
@@ -611,7 +611,12 @@ a {
         font-size: 16px;
         box-shadow: 0px 1px 2px 0px #E2E2E2;
         position: relative;
-
+	
+	h1, h2, h3, h4, h5, h6 {
+	    margin-top: 15px;
+	    margin-bottom: 15px;
+	    line-height: 1.1;
+	}
         .b-edit-icon {
             position: absolute;
             z-index: 1;
@@ -685,7 +690,6 @@ a {
                     list-style: disc;
                     margin: 0 15px
                 }
-
                 p {
                     margin-bottom: 20px;
                 }
@@ -702,7 +706,18 @@ a {
                         }
                     }
                 }
-
+		code {
+		   background: rgba(90,87,87,0);
+		   margin: 5px;
+		   color: #858080;
+		   border-radius: 4px;
+		   background-color: #f9fafa;
+		   border: 1px solid #e4e4e4;
+		   max-width: 740px;
+		   overflow-x: auto;
+		   font-size: 14px;
+		   padding: 2px 5px;
+		}
                 table {
                     width: 100%;
                     max-width: 100%;
@@ -724,7 +739,6 @@ a {
                         border: 1px solid #ddd;
                     }
                 }
-
                 .emoji {
                     width: 24px;
                     height: 24px;
