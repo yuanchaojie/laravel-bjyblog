@@ -17,6 +17,7 @@ class ArticleObserver extends BaseObserver
 
     public function saving($article)
     {
+        file_put_contents("/tmp/debug.info","\n".json_encode($article->markdown),FILE_APPEND);
         if (empty($article->description)) {
             $article->description = preg_replace(
                 ['/[~*>#-]*/', '/!?\[.*\]\(.*\)/', '/\[.*\]/'],
@@ -39,13 +40,13 @@ class ArticleObserver extends BaseObserver
 
         // file_put_contents("/tmp/debug.info","\n".json_encode($article),FILE_APPEND);
         $article->html = Markdown::convertToHtml($article->markdown);
-        file_put_contents("/tmp/debug.info","\n".'观察 saving ',FILE_APPEND);
-        file_put_contents("/tmp/debug.info","\n".json_encode($article->html),FILE_APPEND);
+        // file_put_contents("/tmp/debug.info","\n".'观察 saving ',FILE_APPEND);
+        // file_put_contents("/tmp/debug.info","\n".json_encode($article->html),FILE_APPEND);
     }
 
     public function deleted($article)
     {
-        file_put_contents("/tmp/debug.info","\n".'观察 deleted',FILE_APPEND);
+        // file_put_contents("/tmp/debug.info","\n".'观察 deleted',FILE_APPEND);
         // 删除文章后同步删除关联表 article_tags 中的数据
         if ($article->isForceDeleting()) {
             ArticleTag::onlyTrashed()->where('article_id', $article->id)->forceDelete();
@@ -59,7 +60,7 @@ class ArticleObserver extends BaseObserver
 
     public function restored($article)
     {
-        file_put_contents("/tmp/debug.info","\n".'观察 restored ',FILE_APPEND);
+        // file_put_contents("/tmp/debug.info","\n".'观察 restored ',FILE_APPEND);
         // 恢复删除的文章后同步恢复关联表 article_tags 中的数据
         ArticleTag::onlyTrashed()->where('article_id', $article->id)->restore();
         flash_success('恢复成功');

@@ -28,6 +28,7 @@
             </div>
             <div class="col-xs-12 col-md-12 col-lg-12 b-content-word">
                 <div class="js-content">{!! $article->html !!}</div>
+		<!--
                 <p class="b-h-20"></p>
                 <p class="b-copyright">
                     {!! htmlspecialchars_decode(config('bjyblog.copyright_word')) !!}
@@ -39,7 +40,8 @@
                         <div id="b-js-socials"></div>
                     @endif
                 </div>
-                <ul class="b-prev-next">
+                -->
+		<ul class="b-prev-next">
                     <li class="b-prev">
                          {{ __('Previous Article') }}：
                         @if(is_null($prev))
@@ -65,6 +67,7 @@
             var userEmail='{{ auth()->guard('socialite')->check() ? auth()->guard('socialite')->user()->email : '' }}';
             tuzkiNumber=1;
         </script>
+	<!--
         <div class="row b-comment">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 b-comment-box">
                 <img class="b-head-img" src="@if(auth()->guard('socialite')->check()){{ auth()->guard('socialite')->user()->avatar }}@else{{ asset('images/home/default_head_img.gif') }}@endif" alt="{{ config('app.name') }}" title="{{ config('app.name') }}">
@@ -141,6 +144,7 @@
             </div>
         </div>
         <!-- 引入通用评论结束 -->
+	-->
     </div>
     <!-- 左侧文章结束 -->
 @endsection
@@ -148,7 +152,8 @@
 @section('js')
     <script>
         $('pre').addClass('line-numbers');
-        $('.js-content a').attr('target', '_blank')
+        // $('.js-content a').attr('target', '_blank')
+        $(".js-content a[name]").attr('style', 'position:relative;top:-40px;')
         translate = {
             pleaseLoginToComment: "{{ __('Please login to comment') }}",
             pleaseLoginToReply: "{{ __('Please login to reply') }}",
@@ -162,6 +167,40 @@
             });
         })
         $('.js-content').html(editormd.emojiRenderer($('.js-content').html()));
+	
+	// 在顶部添加目录项
+        function appendMenuItem(firstTagName, tagName, id, content) {
+	    //console.log(tagName+" "+tagName.substring(1));
+	    let paddingLeft = (tagName.substring(1) - firstTagName.substring(1)) * 20; //添加标题缩进
+	    $('#menu_nav_ol').append('<li class="' + id + '" style="padding-left: '+ paddingLeft +'px;"><a style="cursor: pointer;color: #4D9CDB"><b>' + content + '</b></a></li>');
+	}
+	(function(){
+	    let titles = $('.js-content').find('h1,h2,h3,h4,h5,h6');
+	    let menuContent = '<div id="topMenu" style="padding: 20px;"></div>';
+	    $('.js-content').prepend(menuContent);
+	    $('#topMenu').append('<dl id="menu_nav_ol" style="list-style:none;margin:0px;padding:0px;">');
+	    //console.log(titles);
+	    // 第一个h标签
+	    var firstTagName = titles[0].tagName.toLocaleLowerCase();
+	    for(var i=0;i<titles.length;i++) {
+	    	let item = titles[i];
+	    	let tagName = $(item)[0].tagName.toLocaleLowerCase();
+		let content = $(item).text();
+		var newTagId = $(item).attr('id');
+		if(typeof titleId === typeof undefined || titleId === false) {
+		    // id 不存在 
+		    newTagId = 'id_' + i;
+		    $(item).attr('id',newTagId);
+		}
+		appendMenuItem(firstTagName, tagName, newTagId, content);
+	    }
+	    $('#topMenu').append('</dl>');
+	    // 绑定目录li点击事件,点击时跳转到对应的位置
+	    $('#menu_nav_ol li').on('click',function() {
+		let targetId = $(this).attr('class');
+		$("#"+targetId)[0].scrollIntoView(true);
+	    });
+	})();
         $('.js-fluidbox').fluidbox();
         $('#b-share-js').share(sharejsConfig);
         $('#b-js-socials').jsSocials(jsSocialsConfig)

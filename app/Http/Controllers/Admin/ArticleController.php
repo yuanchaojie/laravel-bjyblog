@@ -152,9 +152,9 @@ class ArticleController extends Controller
         $tag_ids = $data['tag_ids'];
         unset($data['tag_ids']);
 
-	file_put_contents("/tmp/debug.info","\n".json_encode($data),FILE_APPEND);
+	// file_put_contents("/tmp/debug.info","\n".json_encode($data),FILE_APPEND);
 	$result = Article::withTrashed()->find($id)->update($data);
-	file_put_contents("/tmp/debug.info","\n".json_encode($result),FILE_APPEND);
+	// file_put_contents("/tmp/debug.info","\n".json_encode($result),FILE_APPEND);
 	if ($result) {
             ArticleTag::where('article_id', $id)->forceDelete();
             $articleTagModel->addTagIds($id, $tag_ids);

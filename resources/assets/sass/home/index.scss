@@ -25,11 +25,14 @@ ul, ol, li {
 a {
     text-decoration: none;
 }
+a {
+    color:hsla(0,0%,100%,.87);
+}
 
 a:hover {
     text-decoration: none;
     transition: all 0.5s ease 0s;
-    color: #0B7DF2;
+    color: #0D9BFF;
 }
 
 a:focus {
@@ -60,7 +63,7 @@ textarea {
 }
 
 body {
-    background: #F8F8F8;
+    background: #000;
     font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -89,7 +92,8 @@ a {
 #b-public-nav {
     padding-top: 0px;
     padding-bottom: 0px;
-    background: #333;
+    background: #16161a;
+    box-shadow: 0 2px 6px rgba(0,0,0,.1);
     color: #fff;
     border: none;
     min-height: 40px;
@@ -235,9 +239,10 @@ a {
         margin-bottom: 20px;
         padding: 10px 20px;
         background: #fff;
-        box-shadow: 0px 1px 2px 0px #E2E2E2;
         overflow: hidden;
-
+	background-color: #25252b;
+	color: hsla(0,0%,100%,.87);
+	border-radius: 4px;
         .b-title {
             height: 30px;
         }
@@ -493,12 +498,15 @@ a {
         padding-top: 20px;
         padding-bottom: 20px;
         background: #fff;
-        box-shadow: 0px 1px 2px 0px #E2E2E2;
         position: relative;
-
+	border-radius: 4px;
+	overflow: hidden;
+	background-color: #25252b;
+	color: hsla(0,0%,100%,.38);
         .b-oa-title {
             position: relative;
             border-bottom: none;
+	    color: hsla(0,0%,100%,.87);
         }
 
         .b-oa-title::before {
@@ -607,15 +615,15 @@ a {
 
     /* 文章内容开始 */
     .b-article {
-        background: #fff;
-        font-size: 16px;
-        box-shadow: 0px 1px 2px 0px #E2E2E2;
+        background: #161718;
+        font-size: 15px;
         position: relative;
+	color: hsla(0, 0%, 100%,.87);
 	
 	h1, h2, h3, h4, h5, h6 {
-	    margin-top: 15px;
-	    margin-bottom: 15px;
-	    line-height: 1.1;
+	    margin-top: 1.2em;
+	    margin-bottom: 20px;
+	    line-height: 1.225;
 	}
         .b-edit-icon {
             position: absolute;
@@ -625,24 +633,21 @@ a {
         }
 
         .b-title {
-            padding-top: 20px;
-            padding-bottom: 20px;
             text-align: center;
         }
 
         .b-metadata {
             margin-bottom: 10px;
             padding-bottom: 5px;
-            border-bottom: 1px dotted #999;
+            border-bottom: 1px solid #999;
             font-size: 14px;
-
             .b-tag-name {
                 margin-right: 5px;
             }
         }
 
         .b-content-word {
-            line-height: 28px;
+            line-height: 30px;
 
             img {
                 max-width: 100%;
@@ -726,14 +731,17 @@ a {
                     border-collapse: collapse;
                     border-spacing: 0;
 
-                    tbody tr:nth-of-type(2n+1) {
-                        background-color: #f9f9f9;
-                    }
+//                  tbody tr:nth-of-type(2n+1) {
+//                      background-color: #f9f9f9;
+//                  }
 
-                    tr:hover {
-                        background-color: #f9f9f9;
-                    }
+//                  tr:hover {
+//                      background-color: #f9f9f9;
+//                  }
 
+		    thead {
+		    	background-color: #333;
+		    }
                     th, td {
                         padding: 0 5px;
                         border: 1px solid #ddd;
@@ -754,7 +762,7 @@ a {
     .b-comment {
         margin-top: 10px;
         padding-bottom: 210px;
-        background: #fff;
+        background: #25252b;
         box-shadow: 0px 1px 2px 0px #E2E2E2;
         position: relative;
         z-index: 1;
